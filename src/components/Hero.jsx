@@ -1,14 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='bg-teal-200 border h-[70vh] p-8 flex flex-col'>
+    <div className="bg-orange-100 border h-[70vh] p-8 flex flex-col mx-auto md:flex-row">
       <div>
-        <img className='mx-auto w-[40vw] md:w-[40vw] h-auto' src='/images/ManoshanDom0.png'></img>  
+        <img
+          className="w-[50vw] h-auto md:w-[25vw] rounded-full mx-auto border-1"
+          src="/images/ManoshanDom.png"
+        ></img>
       </div>
-      <div><h1>Text area</h1></div>
+      <div className="mx-auto">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl">
+          Hi, I am Manoshan Domingo
+        </h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
